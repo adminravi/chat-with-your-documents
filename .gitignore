@@ -1,0 +1,24 @@
+# The virtual environment
+.venv/
+venv/
+
+# The local Chroma store (regenerated per machine)
+chroma_db/
+
+# Your API key stays on your machine
+.env
+
+# Python cruft
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+build/
+dist/
+
+# Editor cruft
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
